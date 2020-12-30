@@ -2,6 +2,7 @@
 ## Flattens out nested xml to individual columns in dataframe
 
 ###### Sample input.xml
+```
 <bookstore>
 <book category="COOKING">
     <title lang="en">Everyday Italian</title>
@@ -28,7 +29,7 @@
     <price>39.95</price>
   </book>
 </bookstore>
-
+```
 ### df = xml_to_df.convert_xml_to_df("input.xml")
 ### df.head()
 ###### Output dataframe
