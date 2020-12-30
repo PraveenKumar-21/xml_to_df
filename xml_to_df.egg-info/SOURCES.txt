@@ -1,0 +1,8 @@
+README.md
+setup.py
+xml_to_df/__init__.py
+xml_to_df.egg-info/PKG-INFO
+xml_to_df.egg-info/SOURCES.txt
+xml_to_df.egg-info/dependency_links.txt
+xml_to_df.egg-info/requires.txt
+xml_to_df.egg-info/top_level.txt
