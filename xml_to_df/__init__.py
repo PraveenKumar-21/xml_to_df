@@ -1,4 +1,4 @@
-__version__ = "0.0.3"
+__version__ = "0.0.5"
 
 import xml.etree.ElementTree as ET
 import pandas as pd

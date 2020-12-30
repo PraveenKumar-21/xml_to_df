@@ -1,8 +1,8 @@
 Metadata-Version: 2.1
 Name: xml-to-df
-Version: 0.0.3
+Version: 0.0.5
 Summary: Package to convert xml to Pandas dataframe (flattens each and every xml element to dataframe column)
-Home-page: https://github.com/pypa/sampleproject
+Home-page: https://github.com/PraveenKumar-21/xml_to_df
 Author: Praveen Kumar B
 Author-email: bpraveenkumar21@gmail.com
 License: UNKNOWN
@@ -10,6 +10,7 @@ Description: # XML to Pandas Dataframe
         ## Flattens out nested xml to individual columns in dataframe
         
         ###### Sample input.xml
+        ```
         <bookstore>
         <book category="COOKING">
             <title lang="en">Everyday Italian</title>
@@ -36,7 +37,7 @@ Description: # XML to Pandas Dataframe
             <price>39.95</price>
           </book>
         </bookstore>
-        
+        ```
         ### df = xml_to_df.convert_xml_to_df("input.xml")
         ### df.head()
         ###### Output dataframe
