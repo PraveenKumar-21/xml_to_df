@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="xml_to_df",
-    version="0.0.5",
+    version="0.0.6",
     author="Praveen Kumar B",
     author_email="bpraveenkumar21@gmail.com",
     description="Package to convert xml to Pandas dataframe (flattens each and every xml element to dataframe column)",
